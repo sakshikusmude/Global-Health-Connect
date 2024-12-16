@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Healthcare Connect</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- Header with banner -->
+    <header class="main-header">
+        <div class="banner">
+            <h1>Global Healthcare Connect</h1>
+            <p>Dedicated to delivering world-class healthcare with compassion and innovation</p>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#hospitals">Hospitals</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Testimonial Section -->
+    <section id="testimonials">
+        <h2>What Our Patients Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p>"Global Healthcare Connect gave me access to world-class facilities and saved my life!"</p>
+                <h4>- John Doe</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Thanks to their compassionate staff, my recovery was faster and stress-free."</p>
+                <h4>- Jane Smith</h4>
+            </div>
+            <div class="testimonial">
+                <p>"I am grateful for their innovation in healthcare delivery. Highly recommend!"</p>
+                <h4>- Alex Johnson</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Button -->
+    <div id="banner">
+        <button id=" chatbot" onclick="location.href='{{ url_for('chatbot_page') }}'">Go to Chatbot</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>Email: support@healthconnect.com</p>
+                <p>Phone: +1-800-123-4567</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#hospitals">Hospitals</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <p>Facebook | Twitter | LinkedIn</p>
+            </div>
+        </div>
+        <p>© 2024 Global Healthcare Connect | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
